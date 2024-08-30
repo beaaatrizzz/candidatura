@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var num = parseInt(prompt("Insira sua candidatura"));
+        var candidatura = [120, 207, 434, 122, 100];
+        var candidatura2 = [12, 277, 34, 22, 150];
+        var posicao = candidatura.indexOf (num);
+        var posicao2 = candidatura2.indexOf (num);
+     
+         if (posicao !== -1){
+             alert(`Sua posição é: ` + posicao);
+         } else if (posicao2 !== -1){
+              alert(`Você será convocado para a 2º chamada, sua posição: ` + posicao2)
+         } else {
+             alert(`Você não está entre as 5 posições `);
+         }
+     </script>
+</body>
+</html>
